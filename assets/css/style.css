@@ -99,6 +99,13 @@ p {
     line-height: 0px;
 }
 
+#pic3 {
+    clear: both;
+}
+
+#pic5 {
+    clear: both;
+}
 
 .textbox {
     box-sizing: border-box;
@@ -116,7 +123,7 @@ p {
 footer {
     width: 100%;
     bottom: 0;
-    position: absolute;
+    position: fixed;
     text-align: center;
     background: gray;
 } 
