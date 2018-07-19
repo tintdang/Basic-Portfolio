@@ -4,53 +4,71 @@
 <head>
     <meta charset="utf-8" />
     <title>Portfolio</title>
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <section>
+        <div class="container">
             <h1>Tin Dang</h1>
 
             <!--Links to the other pages-->
             <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
+                <a href="index.html">About |</a>
+                <a href="portfolio.html">Portfolio |</a>
                 <a href="contact.html">Contact</a>
             </nav>
-        </section>
+        </div>
     </header>
 
     <div>
         <!--Header-->
-        <section>
-            <h2>Portfolio</h2>
-        </section>
-
-        <!--Where my projects would go, use 5 placeholder images-->
-        <section>
-            <div class="projects">
-                <img src="http://lorempixel.com/400/200" alt="rpggame">
-                <h3>RPG Game</h3>
+        <div id="maincontent">
+            <section class="container">
+                <h2>Portfolio</h2>
+                <hr>
+            </section>
+            
+            <div class="photos" id="portfoliobox">
+                <div class="photos" id="pic1">
+                    <img width="200" height="200" src="assets/images/placehold.png" alt="rpggame">
+                    <div class="textbox">
+                        RPG Game
+                    </div>
+                </div>
+                <div class="photos" id="pic2">
+                    <img width="200" height="200" src="assets/images/placehold.png" alt="rpggame">
+                    <div class="textbox">
+                        RPG Game
+                    </div>
+                </div>
+                <div class="photos" id="pic3">
+                    <img width="200" height="200" src="assets/images/placehold.png" alt="rpggame">
+                    <div class="textbox">
+                        RPG Game
+                    </div>
+                </div>
+                <div class="photos" id="pic4">
+                    <img width="200" height="200" src="assets/images/placehold.png" alt="rpggame">
+                    <div class="textbox">
+                        RPG Game
+                    </div>
+                </div>
+                <div class="photos" id="pic5">
+                    <img width="200" height="200" src="assets/images/placehold.png" alt="rpggame">
+                    <div class="textbox">
+                        RPG Game
+                    </div>
+                </div>
             </div>
-            <div class="projects">
-                <img src="http://lorempixel.com/400/200" alt="??">
-                <h3>????</h3>
-            </div>
-            <div class="projects">
-                <img src="http://lorempixel.com/400/200" alt="??">
-                <h3>????</h3>
-            </div>
-            <div class="projects">
-                <img src="http://lorempixel.com/400/200" alt="??">
-                <h3>????</h3>
-            </div>
-            <div class="projects">
-                <img src="http://lorempixel.com/400/200" alt="??">
-                <h3>????</h3>
-            </div>
-        </section>
+        </div>
     </div>
+
+    <footer>
+        copyright 2018
+    </footer>
+
 </body>
 
 </html>
